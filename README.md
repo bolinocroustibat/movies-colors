@@ -1,4 +1,4 @@
-# Movies Colors Palettes Creator
+# Movies Colors Palettes
 
 Generate colors palettes from movies files ('.avi', '.mkv' and '.mp4' files).
 
