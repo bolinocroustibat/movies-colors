@@ -1,16 +1,17 @@
-# Movies Colors Palettes
+# Movies Color Palettes
 
-Generate colors palettes from movies files ('.avi', '.mkv' and '.mp4' files).
+Generate color palettes from movies files (`.avi`, `.mkv` and `.mp4` files).
 
 Place the movies files on a Google Drive, connect it to the notebook, as instructed in the notebook.
 
-This is intented to run on a Google Colab runtime. Choose a `GPU` as the Google Colab runtime.
+## Related Projects
 
-## Database
+This repository works in conjunction with [movies-palettes-frontend](https://github.com/bolinocroustibat/movies-palettes-frontend), which provides a web interface to display the generated color palettes.
 
-The database is a SQLite database that contains the movies metadata and the colors palettes.
+## Database Setup
 
-Here is the schema of the database:
+The application requires a SQLite database. You must create the database with the following schema:
+
 ```sql
 CREATE TABLE "movies" (
 	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
