@@ -40,6 +40,7 @@ CREATE TABLE "palettes" (
 	"resize_height" int,
 	"batch_size" int,
 	"clustering_method" varchar,
+	"color_space" varchar,
 	"saturation_factor" varchar,
 	"saturation_threshold" INT,
 	"runtime" varchar,
